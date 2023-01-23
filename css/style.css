@@ -44,13 +44,25 @@
     border-radius: 5px;
 }
 
+.biker-zone-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
 .banner-section {
     background: rgba(231, 111, 81, 0.1);
 }
 
-.banner-content {
-    /* padding: 6.5rem; */
+.bz-single-carousel-item:first-child{
+    max-width: 475px;
 }
+.bz-single-carousel {
+    margin: 50px 0px;
+}
+.bz-single-carousel-item:last-child {
+    max-width: 406px;
+}
+
 
 .banner-header {
     font-size: 9.72vh;

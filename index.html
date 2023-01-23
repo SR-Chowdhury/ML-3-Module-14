@@ -8,13 +8,14 @@
     <title>Biker Zone</title>
     <script src="https://kit.fontawesome.com/ec8e79378c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
 
     <!-- Header Start -->
-    <!-- <header>
+    <header class="container">
         <nav class="my-5 biker-zone-nav">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid gx-0">
@@ -40,7 +41,7 @@
                             </li>
                         </ul>
 
-                        <button class="btn btn-outline-success ms-4 biker-zone-btn" type="submit">Login</button>
+                        <button class="btn ms-4 biker-zone-btn" type="submit">Login</button>
 
                     </div>
                 </div>
@@ -48,25 +49,16 @@
         </nav>
         <section class="banner-section">
             <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
                 <div class="carousel-inner banner-content">
                     <div class="carousel-item active">
-                        <div class="row mx-5">
-                            <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
-                                <div class="">
-                                    <h1 class="banner-header">Ride-on R15 V4 with Smile</h1>
-                                    <p class="banner-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                                    <button class="biker-zone-btn rounded">Purchase</button>
-                                </div>
+                        <div class="bz-single-carousel d-flex align-items-center column-gap-2 justify-content-center">
+                            <div class="bz-single-carousel-item">
+                                <h1 class="banner-header">Ride-on R15 V4 with Smile</h1>
+                                <p class="banner-description">Amet minim mollit non deserunt ullamco est sit aliqua
+                                    dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                                <button class="biker-zone-btn rounded">Purchase</button>
                             </div>
-                            <div class="col-12 col-md-6">
+                            <div class="bz-single-carousel-item">
                                 <div class="">
                                     <img src="./img/bike-5.png" class="d-block w-100" alt="...">
                                 </div>
@@ -74,43 +66,52 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row mx-5">
-                            <div class="col-12 col-md-6">
+                        <div class="bz-single-carousel d-flex align-items-center column-gap-2 justify-content-center">
+                            <div class="bz-single-carousel-item">
                                 <h1 class="banner-header">Ride-on R15 V4 with Smile</h1>
-                                <p class="banner-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                                <p class="banner-description">Amet minim mollit non deserunt ullamco est sit aliqua
+                                    dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                                 <button class="biker-zone-btn rounded">Purchase</button>
                             </div>
-                            <div class="col-6">
-                                <img src="./img/bike-6.png" class="d-block w-100" alt="...">
+                            <div class="bz-single-carousel-item">
+                                <div class="">
+                                    <img src="./img/bike-5.png" class="d-block w-100" alt="...">
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row mx-5">
-                            <div class="col-12 col-md-6">
+                        <div class="bz-single-carousel d-flex align-items-center column-gap-2 justify-content-center">
+                            <div class="bz-single-carousel-item">
                                 <h1 class="banner-header">Ride-on R15 V4 with Smile</h1>
-                                <p class="banner-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                                <p class="banner-description">Amet minim mollit non deserunt ullamco est sit aliqua
+                                    dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                                 <button class="biker-zone-btn rounded">Purchase</button>
                             </div>
-                            <div class="col-12 col-md-6">
-                                <img src="./img/bike-8.png" class="d-block w-100" alt="...">
+                            <div class="bz-single-carousel-item">
+                                <div class="">
+                                    <img src="./img/bike-5.png" class="d-block w-100" alt="...">
+                                </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" style="background-color: #E76F51;" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon" style="background-color: #E76F51;"
+                        aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="next">
-                    <span class="carousel-control-next-icon" style="background-color: #E76F51;" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon" style="background-color: #E76F51;"
+                        aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </section>
-    </header> -->
+    </header>
 
     <!-- main section -->
     <main class="container">
@@ -121,7 +122,7 @@
                 <h1 class="section-title">Fetured Bikes In This Year</h1>
                 <p class="section-sub-title">Best bike collection</p>
             </div>
-            <div class="row gx-5 gy-5">
+            <div class="row">
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="single-feature-img white-img p-4">
                         <img class="w-100" src="./img/feature-bike.jpg" alt="">
@@ -140,7 +141,7 @@
             </div>
         </section>
 
-        <!-- Latest News Section -->
+        <!-- Latest News Section --> 
         <section class="white-space-btwn-section latest-news-section">
             <div class="section-header text-center">
                 <h1 class="section-title">Latest News</h1>
@@ -320,18 +321,18 @@
         <div class="container">
             <div class="footer-container d-flex justify-content-between align-items-center">
                 <div class="footer-info">
-                    <div class="single-footer-info d-flex mb-3">
-                        <a href="#">Download Now</a> 
+                    <div class="single-footer-info bz-footer-up-flex d-flex mb-3">
+                        <a href="#">Download Now</a>
                         <a href="#">Licence</a>
                     </div>
-                    <div class="single-footer-info d-flex mb-5">
+                    <div class="single-footer-info bz-footer-flex d-flex mb-5">
                         <a href="#">About</a>
                         <a href="#">Features</a>
                         <a href="#">Pricing</a>
                         <a href="#">career</a>
                         <a href="#">Help</a>
                     </div>
-                    <p>All right reserved</p>
+                    <p class="text-center-footer">All right reserved</p>
                 </div>
                 <div class="footer-app">
                     <p class="text-center">Get the app</p>

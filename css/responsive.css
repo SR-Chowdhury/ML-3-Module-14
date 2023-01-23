@@ -1,5 +1,65 @@
 /* Mobile devices */
-@media only screen and (min-width: 320px) and (max-width: 480px) {}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .biker-zone-nav {
+        margin: 0 !important;
+    }
+
+    .bz-single-carousel {
+        flex-direction: column-reverse;
+        padding: 15px 25px;
+        margin: 0px;
+    }
+
+    .bz-single-carousel-item:last-child {
+        max-width: 80%;
+    }
+
+    .banner-header {
+        font-size: 3.72vh;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
+    .banner-description {
+        margin-bottom: 5px;
+    }
+
+    .biker-zone-btn {
+        padding: 10px 15px;
+        margin-left: 0 !important;
+    }
+
+    .white-space-btwn-section {
+        margin-top: 4.125rem;
+    }
+
+    .latest-news-card {
+        margin-top: 25px;
+    }
+
+    .single-client {
+        margin-top: 25px;
+    }
+
+    .faq-container .row {
+        gap: 25px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+    .bz-footer-up-flex {
+        justify-content: center;
+    }
+    .bz-footer-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .text-center-footer {
+        text-align: center;
+    }
+
+}
 
 /* iPads, Tablets */
 @media only screen and (min-width: 481px) and (max-width: 768px) {}
