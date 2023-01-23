@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #E76F51;
+    --white-color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+.white-space-btwn-section {
+    margin-top: 8.125rem;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.section-header {
+    margin-bottom: 2.875rem;
+}
+
+/* -----------------------------
+        Biker Zone Header 
+------------------------------*/
+
+.biker-zone-nav-ul {
+    gap: 1.25rem;
+}
+
+.biker-zone-nav-brand {
+    font-size: 2.188rem;
+}
+
+.biker-zone-btn {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 1.063rem 3.125rem;
+    border: 0;
+    border-radius: 5px;
+}
+
+.banner-section {
+    background: rgba(231, 111, 81, 0.1);
+}
+
+.banner-content {
+    /* padding: 6.5rem; */
+}
+
+.banner-header {
+    font-size: 9.72vh;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+
+.banner-description {
+    color: rgba(0, 0, 0, 0.8);
+    text-align: justify;
+    margin-bottom: 1.875rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--primary-color);
+}
+
+/* ------------------------------------
+        Biker Zone Features Bikes 
+-------------------------------------*/
+.section-sub-title {
+    color: var(--primary-color);
+    font-size: 0.875rem;
+}
+
+.single-feature-img.white-img>img {
+    filter: grayscale(1) invert(0);
+}
+
+/* ------------------------------------
+        Biker Zone Latest News 
+-------------------------------------*/
+.latest-news-section .latest-news-card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 1.25rem;
+}
+
+.latest-news-section .card-title {
+    color: #18191F;
+    font-size: 1.65rem;
+}
+
+.latest-news-section .card-text {
+    color: #6C6C6C;
+    text-align: justify;
+}
+
+.latest-news-section .biker-zone-btn {
+    padding: 15px;
+}
+
+.btn-outline-different {
+    background: #FFFFFF;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+/* ------------------------------------
+        Biker Zone Happy Client 
+-------------------------------------*/
+.happy-client-section .client-group {
+    gap: 2.68rem;
+}
+
+.single-client {
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE !important;
+    border-radius: 5px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.single-client-description {
+    color: #6C6C6C;
+    margin-bottom: 15px;
+}
+
+.client-rating i {
+    color: var(--primary-color);
+    margin-left: 5px;
+}
+
+.client-name {
+    margin: 15px 0px;
+    color: #23A6F0;
+    font-size: 14px;
+}
+
+.client-profession {
+    color: #252B42;
+    font-size: 14px;
+    margin-bottom: 0 !important;
+}
+
+/* ------------------------------------
+        Biker Zone FAQ 
+-------------------------------------*/
+.bz-accordion-item {
+    margin-bottom: 13px;
+    background: #FFFFFF;
+    border: 1px solid #D5E5FB !important;
+    border-radius: 5px;
+}
+
+.bz-accordion-header {
+    color: #383838;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: #FEB7EE;
+}
+
+/* ------------------------------------
+        Biker Zone Footer
+-------------------------------------*/
+footer {
+    background: #0B0D17;
+    padding: 50px 0px;
+}
+.single-footer-info {
+    gap: 24px;
+}
+.footer-info a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-info p, .footer-app p {
+    color: #FFFFFF;
+}
